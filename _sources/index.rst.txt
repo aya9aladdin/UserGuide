@@ -104,10 +104,10 @@ Wherever possible, do not take these conversations to private channels, includin
    reading_and_writing
    formats/index
    formats/guessing
-   formats/guessers/default_guesser
    formats/auxiliary
    formats/selection_exporters
    formats/format_reference
+   formats/guessers_list
 
 .. toctree::
    :maxdepth: 1

@@ -49,7 +49,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Selection exporters" href="selection_exporters.html" />
-    <link rel="prev" title="Default guesser" href="guessers/default_guesser.html" /> 
+    <link rel="prev" title="Guessing" href="guessing.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -129,7 +129,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../reading_and_writing.html">Reading and writing files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="index.html">Format overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="guessing.html">Guessing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="guessers/default_guesser.html">Default guesser</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Auxiliary files</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#supported-formats">Supported formats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#reading-data-directly">Reading data directly</a></li>
@@ -142,6 +141,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="selection_exporters.html">Selection exporters</a></li>
 <li class="toctree-l1"><a class="reference internal" href="format_reference.html">Format reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guessers_list.html">Guessers list</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Analysis</span></p>
 <ul>
@@ -293,7 +293,7 @@ reader for .xvg files.</p></td>
 <span class="gp">In [3]: </span><span class="n">aux</span> <span class="o">=</span> <span class="n">mda</span><span class="o">.</span><span class="n">auxiliary</span><span class="o">.</span><span class="n">core</span><span class="o">.</span><span class="n">auxreader</span><span class="p">(</span><span class="n">XVG_BZ2</span><span class="p">)</span>
 
 <span class="gp">In [4]: </span><span class="n">aux</span>
-<span class="gh">Out[4]: </span><span class="go">&lt;MDAnalysis.auxiliary.XVG.XVGReader at 0x7fde52cf3fa0&gt;</span>
+<span class="gh">Out[4]: </span><span class="go">&lt;MDAnalysis.auxiliary.XVG.XVGReader at 0x7fa757804070&gt;</span>
 </pre></div>
 </div>
 <p>In stand-alone use, an auxiliary reader allows you to iterate over each step in a set of auxiliary data.</p>
@@ -492,7 +492,7 @@ original auxiliary reader.</p>
 <span class="gp">In [30]: </span><span class="k">del</span> <span class="n">aux</span>
 
 <span class="gp">In [31]: </span><span class="n">mda</span><span class="o">.</span><span class="n">auxiliary</span><span class="o">.</span><span class="n">core</span><span class="o">.</span><span class="n">auxreader</span><span class="p">(</span><span class="o">**</span><span class="n">description</span><span class="p">)</span>
-<span class="gh">Out[31]: </span><span class="go">&lt;MDAnalysis.auxiliary.XVG.XVGReader at 0x7fde41af54c0&gt;</span>
+<span class="gh">Out[31]: </span><span class="go">&lt;MDAnalysis.auxiliary.XVG.XVGReader at 0x7fa771a1d640&gt;</span>
 </pre></div>
 </div>
 <p>The ‘description’ of any or all the auxiliaries added to a trajectory can be
@@ -518,7 +518,7 @@ obtained using <a class="reference external" href="https://docs.mdanalysis.org/2
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="selection_exporters.html" class="btn btn-neutral float-right" title="Selection exporters" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="guessers/default_guesser.html" class="btn btn-neutral float-left" title="Default guesser" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="guessing.html" class="btn btn-neutral float-left" title="Guessing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
