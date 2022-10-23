@@ -133,7 +133,7 @@ Guessing topology attributes
 ----------------------------
 
 MDAnalysis has a guesser library that hold various guesser classes. Each guesser class is tailored to be context-specific. For example, PDBGuesser is specific for guessing attributes for PDB file format. See :ref:`guessing` for more details about the available context-aware guessers.
-The Universe has :meth:`~MDAnalysis.core.universe.Universe.guess_TopologyAttributes` API, which ability to guess an attribute within a specific context either at the universe creation or by using the API directly.
+The Universe has :meth:`~MDAnalysis.core.universe.Universe.guess_TopologyAttributes` API, which have ability to guess an attribute within a specific context either at the universe creation or by using the API directly.
 For example, to guess ``element`` attribute for a PDB file by either of two ways:
 
 .. ipython:: python
