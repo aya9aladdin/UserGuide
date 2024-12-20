@@ -23,3 +23,4 @@ Here is a list of the currently available context-specific guesser and what attr
 +--------------------------------------------+-----------------------+-----------------------------------------------------------------------------------------------------------------+
 | :ref:`DefaultGuesser <default-guesser>`    | :code:`default`       | masses, atom types, elements, bonds, angles, dihedrals, improper dihedrals, aromaticities, gasteiger charges    |
 +--------------------------------------------+-----------------------+-----------------------------------------------------------------------------------------------------------------+
+

@@ -7,13 +7,14 @@ XTC (GROMACS compressed trajectory file)
 
 .. include:: classes/XTC.txt
 
-The GROMACS XTC trajectory compresses data with reduced precision (3 decimal places by default). MDAnalysis can only read coordinates from these files. See :ref:`TRR-format` for uncompressed files that provide velocity and force information.
+The `GROMACS XTC`_ trajectory compresses data with reduced precision (3 decimal places by default). MDAnalysis can only read coordinates from these files. See :ref:`TRR-format` for uncompressed files that provide velocity and force information.
 
+.. _`GROMACS XTC`: https://manual.gromacs.org/current/reference-manual/file-formats.html#xtc
 
 Reading in
 ==========
 
-MDAnalysis uses XDR based readers for GROMACS formats, which store offsets on the disk. The offsets are used to enable access to random frames efficiently. These offsets will be generated automatically the first time the trajectory is opened, and offsets are generally stored in hidden ``*_offsets.npz`` files. [#error]_ 
+MDAnalysis uses XDR based readers for GROMACS formats, which store offsets on the disk. The offsets are used to enable access to random frames efficiently. These offsets will be generated automatically the first time the trajectory is opened, and offsets are generally stored in hidden ``*_offsets.npz`` files. [#error]_
 
 Trajectories split across multiple files can be :ref:`read continuously into MDAnalysis <chainreader>` with ``continuous=True``, in the style of `gmx trjcat`_.
 
